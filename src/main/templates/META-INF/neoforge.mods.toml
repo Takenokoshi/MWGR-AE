@@ -101,7 +101,7 @@ A mod that integrates Mekanism: Water Generator Rebuild and Applied Energistics 
     side="BOTH"
 [[dependencies.${mod_id}]]
     modId="mekanism"
-    mandatory=false
+    type="optional"
     versionRange="[10.7.19,)"
     ordering="AFTER"
     side="BOTH"
