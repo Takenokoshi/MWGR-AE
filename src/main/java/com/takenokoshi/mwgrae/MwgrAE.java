@@ -1,40 +1,38 @@
 package com.takenokoshi.mwgrae;
 
-import com.github.misosoupTgit.mwgr.MWGRMod;
+import com.github.misosouptgit.mwgr.MekanismWaterGeneratorRebuild;
 
 import appeng.api.storage.StorageCells;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.material.Fluids;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
 @Mod(MwgrAE.MODID)
 public class MwgrAE {
     public static final String MODID = "mwgr_ae";
 
-    public MwgrAE() {
-        FMLJavaModLoadingContext context = FMLJavaModLoadingContext.get();
-        IEventBus modEventBus = context.getModEventBus();
-        modEventBus.addListener(this::commonSetUp);
+    public MwgrAE(IEventBus modEventBus, ModContainer modContainer) {
+        modEventBus.addListener(this::commonSetup);
     }
 
-    private void commonSetUp(final FMLCommonSetupEvent event) {
+    private void commonSetup(final FMLCommonSetupEvent event) {
         StorageCells.addCellHandler(new WaterGeneratorCellHandler(
-                ForgeRegistries.ITEMS.getValue(new ResourceLocation(MWGRMod.MOD_ID, "water_generator")),
+                MekanismWaterGeneratorRebuild.WATER_GENERATOR_ITEM.asItem(),
                 Fluids.WATER,
                 "water_generator"));
         StorageCells.addCellHandler(new WaterGeneratorCellHandler(
-                ForgeRegistries.ITEMS.getValue(new ResourceLocation(MWGRMod.MOD_ID, "lava_generator")),
+                MekanismWaterGeneratorRebuild.LAVA_GENERATOR_ITEM.asItem(),
                 Fluids.LAVA,
                 "lava_generator"));
         if (ModList.get().isLoaded("mekanism")) {
             StorageCells.addCellHandler(new WaterGeneratorCellHandler(
-                    ForgeRegistries.ITEMS.getValue(new ResourceLocation(MWGRMod.MOD_ID, "heavywater_generator")),
-                    ForgeRegistries.FLUIDS.getHolder(new ResourceLocation("mekanism", "heavy_water")).get().get(),
+                    MekanismWaterGeneratorRebuild.HEAVY_WATER_GENERATOR_ITEM.asItem(),
+                    BuiltInRegistries.FLUID.get(ResourceLocation.fromNamespaceAndPath("mekanism", "heavy_water")),
                     "heavywater_generator"));
         }
     }

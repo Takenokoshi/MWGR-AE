@@ -19,9 +19,7 @@
         "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
-      "env": {
-        "MOD_CLASSES": "mwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
-      },
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     },
@@ -43,9 +41,7 @@
         "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
-      "env": {
-        "MOD_CLASSES": "mwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
-      },
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     },
@@ -67,9 +63,7 @@
         "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
-      "env": {
-        "MOD_CLASSES": "mwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
-      },
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     },
@@ -91,9 +85,7 @@
         "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
-      "env": {
-        "MOD_CLASSES": "mwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
-      },
+      "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
     }
