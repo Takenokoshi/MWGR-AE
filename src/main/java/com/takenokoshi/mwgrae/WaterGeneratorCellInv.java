@@ -52,7 +52,7 @@ public class WaterGeneratorCellInv implements StorageCell {
 
     @Override
     public void getAvailableStacks(KeyCounter out) {
-        out.add(fluidKey, VIEW_COUNTER);
+        out.add(fluidKey, Long.MAX_VALUE);
     }
 
 }

@@ -12,11 +12,11 @@
       "projectName": "MWGR-AE",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\clientRunProgramArgs.txt"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -34,11 +34,11 @@
       "projectName": "MWGR-AE",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\dataRunProgramArgs.txt"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -56,11 +56,11 @@
       "projectName": "MWGR-AE",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -78,11 +78,11 @@
       "projectName": "MWGR-AE",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\serverRunProgramArgs.txt"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\mwgr_ae\\MWGR-AE\\bin\\main"
+        "@C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmwgr_ae%%C:\\Users\\user\\Documents\\TR\\mod_develop\\MWGR-AE\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
