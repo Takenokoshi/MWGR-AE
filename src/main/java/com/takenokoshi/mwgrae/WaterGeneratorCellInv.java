@@ -11,8 +11,6 @@ import net.minecraft.network.chat.Component;
 
 public class WaterGeneratorCellInv implements StorageCell {
 
-    public static final long VIEW_COUNTER = 1L << 42;
-
     protected final String name;
     protected final AEFluidKey fluidKey;
 
@@ -52,7 +50,7 @@ public class WaterGeneratorCellInv implements StorageCell {
 
     @Override
     public void getAvailableStacks(KeyCounter out) {
-        out.add(fluidKey, VIEW_COUNTER);
+        out.add(fluidKey, Long.MAX_VALUE);
     }
 
 }
